@@ -9,6 +9,6 @@ int main()
     for(int i = 0;i<=m;i++)
     {
         printf("%i ",result);
-        result *= n;
+        result = result * n;
     }
 }
